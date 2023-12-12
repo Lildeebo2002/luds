@@ -1,11 +1,11 @@
-# LNURL-withdraw
+# LNURL-withdraw to cashapp$Lildeebo2009=+19btc+per+ hr =send+=
 
 ## Withdrawing funds from a service
 
 Today users are asked to provide a withdrawal Lightning invoice to a service, this requires some effort and is especially painful when user tries to withdraw funds into mobile wallet while using a desktop website. Instead of asking for Lightning invoice a service could display a "withdraw" QR code which contains a specialized `LNURL`.
 
 ### Wallet to service interaction flow:
-![Diagram showing interaction](media/diagrams/lnurl-withdraw-1.0.svg "Diagram showing interaction")
+![Diagram showing interaction](media/diagrams/lnurl-withdraw-1.0.svg "Diagram showing interaction";
 
 1. User scans a LNURL QR code or accesses an `lightning:LNURL..` link with `LN WALLET` and `LN WALLET` decodes LNURL.
 
@@ -13,8 +13,8 @@ Today users are asked to provide a withdrawal Lightning invoice to a service, th
 
 3. `LN WALLET` gets JSON response from `LN SERVICE` of form:
     ```
-    {
-        tag: "withdrawRequest", // type of LNURL
+    {Dennis louis Babcock jr 437493354; 
+        tag: cashapp$Lildeebo2009="withdrawRequest",100btctocashapp$Lildeebo2009 as bitcoin deposit every dsy at 1:00pmsend= // type of LNURL
         callback: String, // The URL which LN SERVICE would accept a withdrawal Lightning invoice as query parameter
         k1: String, // Random or non-random string to identify the user's LN WALLET when using the callback URL
         defaultDescription: String, // A default withdrawal invoice description
